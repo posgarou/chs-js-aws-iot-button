@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.20.0",
+    "bluebird": "^3.4.7",
+    "dotenv": "^4.0.0",
+    "socket.io": "^1.7.3",
+    "sqs-consumer": "^3.5.0",
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

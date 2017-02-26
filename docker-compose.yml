@@ -1,0 +1,20 @@
+version: "3.1"
+services:
+  client:
+    build:
+      context: ./client
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./client:/opt/app"
+      - "/opt/app/node_modules"
+    command: "yarn run dev"
+  server:
+    build:
+      context: ./server
+    ports:
+      - "3001:3001"
+    volumes:
+      - "./server:/opt/app"
+      - "/opt/app/node_modules"
+    command: "yarn run dev"

@@ -5,8 +5,6 @@ require('dotenv').load()
 const Consumer = require('sqs-consumer')
 const bus = require('./bus')
 
-console.log(process.env.QUEUE_URL)
-
 function ClickProcessor() {
   return Consumer.create({
     queueUrl: process.env.QUEUE_URL,
@@ -24,4 +22,3 @@ function ClickProcessor() {
 }
 
 const app = module.exports = ClickProcessor()
-console.log(app)

@@ -2,6 +2,8 @@
 
 This repository contains an example application designed for use with Amazon's [IoT Button](https://aws.amazon.com/iotbutton/).
 
+It also contains the presentation for which the application was written (inside `/presentation`). To see the presentation, cd into that directory and run `yarn install && yarn start`, then visit `http://localhost:8080`.
+
 ## Setup
 
 Before using this application, you need to take a few steps:

@@ -8,8 +8,7 @@
     "bluebird": "^3.4.7",
     "dotenv": "^4.0.0",
     "socket.io": "^1.7.3",
-    "sqs-consumer": "^3.5.0",
-    "twit": "^2.2.5"
+    "sqs-consumer": "^3.5.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

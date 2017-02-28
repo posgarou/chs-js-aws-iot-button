@@ -11,7 +11,6 @@ function ClickProcessor() {
     region: 'us-east-1',
     handleMessage: (message, done) => {
       const payload = JSON.parse(message.Body)
-      console.log('message', payload)
       const { serialNumber, batteryVoltage, clickType } = payload
 
       done()
